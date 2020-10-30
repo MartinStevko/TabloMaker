@@ -1,0 +1,16 @@
+"""
+Example of tablo creation:
+    tree.get().reproduce(left='left test', right='right test')
+    tree.get('<').reproduce(under='under left')
+    tree.get('>').reproduce(left='left under right', right='right under right')
+    tree.get('> <').reproduce(under='under left right')
+"""
+from tablo_maker import Tree
+
+if __name__ == '__main__':
+    tree = Tree('test')
+
+    ### Write your code here ###
+    # tree.get(). ...
+
+    tree.draw('tablo.tex')
